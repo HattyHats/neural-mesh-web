@@ -40,12 +40,23 @@ Mind Mesh automatically and continuously auto-saves your entire mind map right i
 ## Key Features 🚀
 
 ### 1. Spatial Mind Mapping & Navigation
-- **Spawn Thoughts**: Double-click anywhere on the canvas or click **+ Thought** in the top bar.
+- **Spawn Thoughts & Notes**: Double-click anywhere on the canvas or click **+ Thought**, **Document**, or **Voice** in the top bar.
+- **Thought Types**: Choose between Thought Bubbles, Multi-Paragraph Sticky Notes with interactive checklists, and Full Document / Code cards.
 - **Link Thoughts**: Hold **Shift** and drag from one thought to another to form interconnected relational edges.
 - **Lasso Multi-Select**: Hold **Shift** and drag across empty canvas space to select multiple thoughts at once.
 - **Snap to Grid**: Hold **Alt** while dragging thoughts to snap them to a crisp 50px grid.
 - **Cursor-Centered Zoom & Panning**: Use your mouse wheel or 2-finger trackpad pinch to zoom smoothly straight into any node.
+- **Smoothed Radar Minimap**: Bottom-right radar minimap with 1:1 delta dragging, node density overview, and instant click-to-glide camera positioning.
 - **WASD Navigation**: Use keyboard keys <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd> to fly across large canvas networks.
+
+### 2. Interaction & Productivity
+- **Voice-to-Thought Dictation**: Click **Voice** in the top bar to record speech using the browser's native Web Speech API. Real-time transcription with audio waveform animations to generate bubbles, stickies, or documents hands-free.
+- **Cinematic Presentation Tour**: Click **Tour** in the top bar to launch a presentation walkthrough of your mind map with slide titles, progress indicators, auto-play advance, and keyboard step navigation.
+- **Spatial Camera Bookmarks**: Save up to 5 camera spots (<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>1..5</kbd>) and smoothly fly between them (<kbd>Alt</kbd>+<kbd>1..5</kbd>) with ease.
+- **Interactive Canvas Checklists**: Click `- [ ]` checkboxes directly on sticky notes to check off items with strikethrough styling and automatic graph synchronization.
+- **Connector Styles**: Toggle between **Curved Splines** (fluid Bezier), **Laser Straight** (direct beams), and **Angled Steps** (90° flowchart steps).
+- **Canvas Background Patterns**: Switch between **Classic Grid**, **Subtle Dots**, **Cyan Blueprint**, and **Cosmic Nebula**.
+- **Code Language Badges**: Document cards automatically detect programming languages (`JS`, `TS`, `PY`, `RUST`, `HTML`, `CSS`, `SQL`, `JSON`) and display illuminated color badges.
 
 ### 2. 3D Particle Splash Screen
 - Experience a 3D warp-speed fly-through of floating thought bubbles with interconnected neural filaments.
@@ -125,6 +136,10 @@ When typing a thought title or note, type `/` to bring up the interactive comman
 | **Pan Canvas** | 2-Finger scroll / trackpad drag |
 | **Zoom In / Out** | Pinch gesture or <kbd>Cmd/Ctrl</kbd> + Mouse Wheel |
 | **Collapse / Expand Branch** | Right-Click any Category or Date node |
+| **Save Camera Bookmark** | <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1..5</kbd> |
+| **Recall Camera Bookmark** | <kbd>Alt</kbd> + <kbd>1..5</kbd> |
+| **Presentation Tour Step** | <kbd>→</kbd> / <kbd>Space</kbd> (Next) and <kbd>←</kbd> (Prev) |
+| **Presentation Tour Exit** | <kbd>Esc</kbd> |
 | **Delete Selected Thought** | <kbd>Backspace</kbd> or <kbd>Delete</kbd> |
 
 ---
